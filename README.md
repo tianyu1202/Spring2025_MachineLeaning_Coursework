@@ -28,6 +28,19 @@ This repository contains my Jupyter Notebook lab assignments from a Machine Lear
 - Goal: Achieve >98% accuracy
 - Tools: `TensorFlow`, `Keras`
 
+### Lab 4: Recurrent Neural Networks – Word-level Text Generation
+
+- Objective: Build a Recurrent Neural Network (RNN) to generate Shakespeare-style text using word-level encoding.
+- Tasks:
+  - Preprocess Shakespeare text data by removing punctuation and filtering rare words
+  - Train RNN models using both LSTM and GRU layers
+  - Generate sentences using each model
+  - Compare performance and output quality of LSTM vs GRU
+- Key Points:
+  - Shift from character-level to word-level modeling
+  - Vocabulary filtering to reduce sparsity
+  - Use of `Tokenizer`, `Embedding`, `LSTM` / `GRU`, and text sampling
+- Tools: `TensorFlow`, `Keras`, `NumPy`, `NLTK` / `re`
 ---
 
 ## Environment
